@@ -26,7 +26,8 @@ body {
     flex: 1;
     padding: 40px;
     text-align: center;
-    background: linear-gradient(180deg, #6a5cff, #3b2fe3) color:white;
+    background: linear-gradient(180deg, #6a5cff, #3b2fe3);
+    color: white;
 }
 
 .score-circle {
@@ -63,4 +64,56 @@ body {
     border-radius: 10px;
     margin-bottom: 15px;
     font-size: 15px;
+}
+
+.sub-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reaction {
+    background: #fff6f5;
+}
+.reaction span {
+    color: #ff5757;
+}
+
+.memory {
+    background: #fffaf5;
+}
+.memory span {
+    color: #ffb800;
+}
+
+
+.verbal {
+    background: #fafffb;
+}
+.verbal span {
+    color: #00bb8f;
+}
+
+.visual {
+    background: #f5f6ff;
+}
+.visual span {
+    color: #1125d6;
+}
+
+.cta {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    background: #303b5aff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cta:hover {
+    background: linear-gradient(180deg, #3b2fe3, #6a5cff);
 }
