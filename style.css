@@ -26,16 +26,13 @@ body {
 }
 
 .result {
-    border: 1px solid;
-    border-radius: 25px;
-}
-
-.result {
     flex: 1;
     padding: 40px;
     text-align: center;
     background: linear-gradient(180deg, #6a5cff, #3b2fe3);
     color: white;
+    border: 0px solid;
+    border-radius: 25px;
 }
 
 .score-circle {
